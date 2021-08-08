@@ -1,7 +1,7 @@
-import { AppRounting.Module } from './app-rounting.module';
+import { AppRoutingModule } from './app-rounting.module.ts';
 
 describe('AppRounting.Module', () => {
   it('should create an instance', () => {
-    expect(new AppRounting.Module()).toBeTruthy();
+    expect(new AppRoutingModule()).toBeTruthy();
   });
 });
